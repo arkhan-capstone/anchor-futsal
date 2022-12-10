@@ -1,7 +1,6 @@
 /* eslint-disable quotes */
 import "lazysizes";
 import "../styles/main.css";
-import "../public/js/main";
 import "lazysizes/plugins/parent-fit/ls.parent-fit";
 import "regenerator-runtime";
 import App from "./view/app";

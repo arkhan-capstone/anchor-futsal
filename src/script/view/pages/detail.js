@@ -5,7 +5,6 @@
 /* eslint-disable import/no-useless-path-segments */
 /* eslint-disable quotes */
 import UrlParser from "../../routes/url-parser";
-import "../../../public/js/slider-Lapangan";
 import { detailLapangan, homeListLapangan } from "../templates/templates";
 // import LikeButtonInitiator from "../../utils/favorite-button";
 import fieldSource from "../../data/field-source";

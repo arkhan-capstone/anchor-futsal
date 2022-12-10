@@ -2,7 +2,7 @@
 const homeListLapangan = (fields) => `
 <div class="col-xl-4 col-md-6 portfolio-item filter-interlock">
 <div class="portfolio-wrap">
-  <a href="assets/img/lap-rumput.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="${fields.pictureField}" class="img-fluid" alt="${fields.fieldType}"></a>
+  <a href="${fields.pictureField}" data-gallery="portfolio-gallery-app" class="glightbox"><img src="${fields.pictureField}" class="img-fluid" alt="${fields.fieldType}"></a>
   <div class="portfolio-info">
     <h4><a href="detail-Lapangan.html" title="More Details">${fields.fieldType}</a></h4>
     <p>Yogyakarta ⭐ 4.5</p> 
@@ -188,6 +188,7 @@ const homePage = () => `
       </div>
 
       <div class="row gy-4 portfolio-container" id="list-lapangan">
+
       </div>
 
     </div>
